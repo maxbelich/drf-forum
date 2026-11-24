@@ -1,0 +1,24 @@
+# Environment and secrets
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+*.log
+/staticfiles/
+/media/
+
+# Editors and IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
